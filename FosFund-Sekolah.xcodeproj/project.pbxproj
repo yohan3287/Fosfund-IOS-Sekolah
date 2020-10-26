@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3F30A42546C99C008C5258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F30A32546C99C008C5258 /* AppDelegate.swift */; };
+		AA3F30A62546C99C008C5258 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F30A52546C99C008C5258 /* SceneDelegate.swift */; };
+		AA3F30A82546C99C008C5258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F30A72546C99C008C5258 /* ViewController.swift */; };
+		AA3F30AB2546C99C008C5258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3F30A92546C99C008C5258 /* Main.storyboard */; };
+		AA3F30AE2546C99C008C5258 /* FosFund_Sekolah.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA3F30AC2546C99C008C5258 /* FosFund_Sekolah.xcdatamodeld */; };
+		AA3F30B02546C99D008C5258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA3F30AF2546C99D008C5258 /* Assets.xcassets */; };
+		AA3F30B32546C99D008C5258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA3F30B12546C99D008C5258 /* LaunchScreen.storyboard */; };
+		AA3F30BE2546C99D008C5258 /* FosFund_SekolahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F30BD2546C99D008C5258 /* FosFund_SekolahTests.swift */; };
+		AA3F30C92546C99D008C5258 /* FosFund_SekolahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3F30C82546C99D008C5258 /* FosFund_SekolahUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA3F30BA2546C99D008C5258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA3F30982546C99C008C5258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3F309F2546C99C008C5258;
+			remoteInfo = "FosFund-Sekolah";
+		};
+		AA3F30C52546C99D008C5258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA3F30982546C99C008C5258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3F309F2546C99C008C5258;
+			remoteInfo = "FosFund-Sekolah";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA3F30A02546C99C008C5258 /* FosFund-Sekolah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FosFund-Sekolah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3F30A32546C99C008C5258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA3F30A52546C99C008C5258 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA3F30A72546C99C008C5258 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA3F30AA2546C99C008C5258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA3F30AD2546C99C008C5258 /* FosFund_Sekolah.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FosFund_Sekolah.xcdatamodel; sourceTree = "<group>"; };
+		AA3F30AF2546C99D008C5258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA3F30B22546C99D008C5258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA3F30B42546C99D008C5258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3F30B92546C99D008C5258 /* FosFund-SekolahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FosFund-SekolahTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3F30BD2546C99D008C5258 /* FosFund_SekolahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FosFund_SekolahTests.swift; sourceTree = "<group>"; };
+		AA3F30BF2546C99D008C5258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3F30C42546C99D008C5258 /* FosFund-SekolahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FosFund-SekolahUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3F30C82546C99D008C5258 /* FosFund_SekolahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FosFund_SekolahUITests.swift; sourceTree = "<group>"; };
+		AA3F30CA2546C99D008C5258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3F309D2546C99C008C5258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3F30B62546C99D008C5258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3F30C12546C99D008C5258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3F30972546C99C008C5258 = {
+			isa = PBXGroup;
+			children = (
+				AA3F30A22546C99C008C5258 /* FosFund-Sekolah */,
+				AA3F30BC2546C99D008C5258 /* FosFund-SekolahTests */,
+				AA3F30C72546C99D008C5258 /* FosFund-SekolahUITests */,
+				AA3F30A12546C99C008C5258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3F30A12546C99C008C5258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F30A02546C99C008C5258 /* FosFund-Sekolah.app */,
+				AA3F30B92546C99D008C5258 /* FosFund-SekolahTests.xctest */,
+				AA3F30C42546C99D008C5258 /* FosFund-SekolahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3F30A22546C99C008C5258 /* FosFund-Sekolah */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F30A32546C99C008C5258 /* AppDelegate.swift */,
+				AA3F30A52546C99C008C5258 /* SceneDelegate.swift */,
+				AA3F30A72546C99C008C5258 /* ViewController.swift */,
+				AA3F30A92546C99C008C5258 /* Main.storyboard */,
+				AA3F30AF2546C99D008C5258 /* Assets.xcassets */,
+				AA3F30B12546C99D008C5258 /* LaunchScreen.storyboard */,
+				AA3F30B42546C99D008C5258 /* Info.plist */,
+				AA3F30AC2546C99C008C5258 /* FosFund_Sekolah.xcdatamodeld */,
+			);
+			path = "FosFund-Sekolah";
+			sourceTree = "<group>";
+		};
+		AA3F30BC2546C99D008C5258 /* FosFund-SekolahTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F30BD2546C99D008C5258 /* FosFund_SekolahTests.swift */,
+				AA3F30BF2546C99D008C5258 /* Info.plist */,
+			);
+			path = "FosFund-SekolahTests";
+			sourceTree = "<group>";
+		};
+		AA3F30C72546C99D008C5258 /* FosFund-SekolahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F30C82546C99D008C5258 /* FosFund_SekolahUITests.swift */,
+				AA3F30CA2546C99D008C5258 /* Info.plist */,
+			);
+			path = "FosFund-SekolahUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3F309F2546C99C008C5258 /* FosFund-Sekolah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3F30CD2546C99D008C5258 /* Build configuration list for PBXNativeTarget "FosFund-Sekolah" */;
+			buildPhases = (
+				AA3F309C2546C99C008C5258 /* Sources */,
+				AA3F309D2546C99C008C5258 /* Frameworks */,
+				AA3F309E2546C99C008C5258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FosFund-Sekolah";
+			productName = "FosFund-Sekolah";
+			productReference = AA3F30A02546C99C008C5258 /* FosFund-Sekolah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA3F30B82546C99D008C5258 /* FosFund-SekolahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3F30D02546C99D008C5258 /* Build configuration list for PBXNativeTarget "FosFund-SekolahTests" */;
+			buildPhases = (
+				AA3F30B52546C99D008C5258 /* Sources */,
+				AA3F30B62546C99D008C5258 /* Frameworks */,
+				AA3F30B72546C99D008C5258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA3F30BB2546C99D008C5258 /* PBXTargetDependency */,
+			);
+			name = "FosFund-SekolahTests";
+			productName = "FosFund-SekolahTests";
+			productReference = AA3F30B92546C99D008C5258 /* FosFund-SekolahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA3F30C32546C99D008C5258 /* FosFund-SekolahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3F30D32546C99D008C5258 /* Build configuration list for PBXNativeTarget "FosFund-SekolahUITests" */;
+			buildPhases = (
+				AA3F30C02546C99D008C5258 /* Sources */,
+				AA3F30C12546C99D008C5258 /* Frameworks */,
+				AA3F30C22546C99D008C5258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA3F30C62546C99D008C5258 /* PBXTargetDependency */,
+			);
+			name = "FosFund-SekolahUITests";
+			productName = "FosFund-SekolahUITests";
+			productReference = AA3F30C42546C99D008C5258 /* FosFund-SekolahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3F30982546C99C008C5258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					AA3F309F2546C99C008C5258 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					AA3F30B82546C99D008C5258 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = AA3F309F2546C99C008C5258;
+					};
+					AA3F30C32546C99D008C5258 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = AA3F309F2546C99C008C5258;
+					};
+				};
+			};
+			buildConfigurationList = AA3F309B2546C99C008C5258 /* Build configuration list for PBXProject "FosFund-Sekolah" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA3F30972546C99C008C5258;
+			productRefGroup = AA3F30A12546C99C008C5258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3F309F2546C99C008C5258 /* FosFund-Sekolah */,
+				AA3F30B82546C99D008C5258 /* FosFund-SekolahTests */,
+				AA3F30C32546C99D008C5258 /* FosFund-SekolahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3F309E2546C99C008C5258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3F30B32546C99D008C5258 /* LaunchScreen.storyboard in Resources */,
+				AA3F30B02546C99D008C5258 /* Assets.xcassets in Resources */,
+				AA3F30AB2546C99C008C5258 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3F30B72546C99D008C5258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3F30C22546C99D008C5258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3F309C2546C99C008C5258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3F30A82546C99C008C5258 /* ViewController.swift in Sources */,
+				AA3F30A42546C99C008C5258 /* AppDelegate.swift in Sources */,
+				AA3F30A62546C99C008C5258 /* SceneDelegate.swift in Sources */,
+				AA3F30AE2546C99C008C5258 /* FosFund_Sekolah.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3F30B52546C99D008C5258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3F30BE2546C99D008C5258 /* FosFund_SekolahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3F30C02546C99D008C5258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3F30C92546C99D008C5258 /* FosFund_SekolahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA3F30BB2546C99D008C5258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3F309F2546C99C008C5258 /* FosFund-Sekolah */;
+			targetProxy = AA3F30BA2546C99D008C5258 /* PBXContainerItemProxy */;
+		};
+		AA3F30C62546C99D008C5258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA3F309F2546C99C008C5258 /* FosFund-Sekolah */;
+			targetProxy = AA3F30C52546C99D008C5258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA3F30A92546C99C008C5258 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3F30AA2546C99C008C5258 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA3F30B12546C99D008C5258 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3F30B22546C99D008C5258 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3F30CB2546C99D008C5258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA3F30CC2546C99D008C5258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA3F30CE2546C99D008C5258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2954UUH3R9;
+				INFOPLIST_FILE = "FosFund-Sekolah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Macro40.FosFund-Sekolah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA3F30CF2546C99D008C5258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2954UUH3R9;
+				INFOPLIST_FILE = "FosFund-Sekolah/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Macro40.FosFund-Sekolah";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA3F30D12546C99D008C5258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2954UUH3R9;
+				INFOPLIST_FILE = "FosFund-SekolahTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Macro40.FosFund-SekolahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FosFund-Sekolah.app/FosFund-Sekolah";
+			};
+			name = Debug;
+		};
+		AA3F30D22546C99D008C5258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2954UUH3R9;
+				INFOPLIST_FILE = "FosFund-SekolahTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Macro40.FosFund-SekolahTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FosFund-Sekolah.app/FosFund-Sekolah";
+			};
+			name = Release;
+		};
+		AA3F30D42546C99D008C5258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2954UUH3R9;
+				INFOPLIST_FILE = "FosFund-SekolahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Macro40.FosFund-SekolahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FosFund-Sekolah";
+			};
+			name = Debug;
+		};
+		AA3F30D52546C99D008C5258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2954UUH3R9;
+				INFOPLIST_FILE = "FosFund-SekolahUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Macro40.FosFund-SekolahUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FosFund-Sekolah";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3F309B2546C99C008C5258 /* Build configuration list for PBXProject "FosFund-Sekolah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3F30CB2546C99D008C5258 /* Debug */,
+				AA3F30CC2546C99D008C5258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3F30CD2546C99D008C5258 /* Build configuration list for PBXNativeTarget "FosFund-Sekolah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3F30CE2546C99D008C5258 /* Debug */,
+				AA3F30CF2546C99D008C5258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3F30D02546C99D008C5258 /* Build configuration list for PBXNativeTarget "FosFund-SekolahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3F30D12546C99D008C5258 /* Debug */,
+				AA3F30D22546C99D008C5258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3F30D32546C99D008C5258 /* Build configuration list for PBXNativeTarget "FosFund-SekolahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3F30D42546C99D008C5258 /* Debug */,
+				AA3F30D52546C99D008C5258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA3F30AC2546C99C008C5258 /* FosFund_Sekolah.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA3F30AD2546C99C008C5258 /* FosFund_Sekolah.xcdatamodel */,
+			);
+			currentVersion = AA3F30AD2546C99C008C5258 /* FosFund_Sekolah.xcdatamodel */;
+			path = FosFund_Sekolah.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA3F30982546C99C008C5258 /* Project object */;
+}
